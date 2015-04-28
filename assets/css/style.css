@@ -1,0 +1,64 @@
+.building  h1 {
+	text-align: center;
+}
+
+/*Elevator ========================== */
+#elevator {
+	position: absolute;
+	width: 15%;
+	padding-left: 70px;
+}
+#elevator img {
+	margin-top: 5px;
+	width: 140px
+}
+
+/*Floors ========================== */
+.floor {
+	border: solid 1px;
+}
+
+/*Arrows ========================== */
+.arrows {
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+.arrows img {
+	border: solid 2px;
+	border-radius: 10px;
+	padding: 5px;
+	width: 50px;
+	margin: 0 auto;
+}
+.arrows img:active {
+	border-color: #922C40;
+}
+.arrows img:hover {
+	border-color: #922C40;
+    transition:all 0.5s ease;
+}
+
+@media screen and (max-width: 992px) {
+	#elevator {
+		padding-top: 140px;
+	}
+}
+@media screen and (max-width: 700px) {
+	.arrows img {
+		width: 30px;
+		margin: 15px;
+	}
+}
+
+@media screen and (max-width: 381px) {
+	#elevator {
+		padding-top: 170px;
+		padding-left: 10px;
+	}
+	#elevator img {
+		width: 110px;
+		margin-top: 20px;
+		margin-bottom: 30px;
+	}
+}
